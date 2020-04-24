@@ -27,7 +27,7 @@ h3{
   border: 1px solid black;
 }
 .chicken {
-	border: 1px solid black;
+  border: 1px solid black;
 	text-align: center;
 	width: 30%;
   margin-left: 70%;
@@ -35,9 +35,9 @@ h3{
   clear: both;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
-  font-size: 125%;
+	font-size: 125%;
 	margin-bottom: 0;
-  margin-top: 0;
+	margin-top: 0;
 	padding: 1%;
   background-color: #ff0000;
 }
@@ -53,7 +53,7 @@ h3{
 	font-size: 125%;
 	margin-bottom: 0;
 	margin-top: 0;
-	padding:1%;
+	padding: 1%;
   background-color: #ff0066;
  
 }
