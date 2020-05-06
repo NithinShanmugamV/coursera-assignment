@@ -40,6 +40,7 @@ body {
 }
 #nav-list a{
   color: black;
+  font-style: italic;
   text-align: center;
 
 }
@@ -65,7 +66,6 @@ body {
 
 
 h1{
-  text-align: center;
   color: #993300;
 }
 
