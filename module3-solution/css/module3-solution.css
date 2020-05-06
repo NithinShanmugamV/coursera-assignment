@@ -82,11 +82,11 @@ section {
 
 h3{
   text-align: right;
-  border: 1px solid black;
+ margin-top: 0;
+ margin-bottom: 0;
 }
 .chicken {
   border: 1px solid black;
-	text-align: center;
 	width: 100%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
@@ -98,13 +98,14 @@ h3{
 }
 .beef{
   border: 1px solid black;
-	text-align: center;
 	width: 100%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
 	margin-bottom: 0;
-	margin-top: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
 	padding: 1%;
   background-color: #ff0066;
  
@@ -112,7 +113,6 @@ h3{
 
 .sushi{
   border: 1px solid black;
-	text-align: center;
 	width: 100%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
