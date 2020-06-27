@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box ;
+}
+
+body{
+  font-size : 110% ;
+}
+
+header {
+  background-image: url('http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg') ;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+nav {
+  font-variant: small-caps;
+  font-size: 150%;
+  font-family: arial, Arial, Helvetica, sans-serif;
+  position: relative;
+ padding-bottom: 5%;
+}
+
+
+nav a {
+  background-color: rgba(218,234,213,0.60);
+  color: #000000; /* Black */
+  display: inline-block;
+  padding: 1%;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-decoration: none; 
+  border-radius: 10%; 
+}
+
+
+.active {
+  background: #FFFFFF; /* White */
+}
+
+
+h1{
+  color : #ffffff;
+  text-align : center;
+  font-size : 250%;
+  text-transform : uppercase;
+}
+
+
+main {
+  font-size : 110% ;
+}
+
+img {
+   width: 100%;
+   border: black solid;
+   margin: 0 auto;
+}
+.left {
+   width: 20%;
+   display: inline-block;
+   padding : 2% ;
+   background-color: #808000;
+   height: 100vw;
+}
+aside a{
+   float: left;
+   margin: 0 auto;
+   margin-bottom: 7%;
+   margin-top: 7%;
+}
+
+
+.right {
+   width :80%;
+   float: right;
+   padding: 2%;
+   padding-top :0 ;
+}
+
+main h2 {
+   text-transform : uppercase;
+   color : #0000ff ;
+   font-size : 170% ;
+}
+
+table {
+   color: #ffffff;
+   border-radius: 5%;
+   margin: 0 auto;
+   font-size: 1.2em;
+}
+
+tr>th {
+  background-color: #808000;
+   padding-top: 17px;
+   padding-bottom: 17px;
+   color: #ffffff;
+   border-radius: 10px 10px 0 0;
+   border-bottom: 5px solid greenyellow;
+}
+
+
+tr {
+  background-color: #c8dead;
+  color: #000000;
+  opacity: 0.7;
+}
+
+tr:hover {
+   opacity: 1;
+}
+
+
+
+tr>th:nth-child(1) {
+  text-align: left;
+  padding-right: 120px;
+  padding-left: 10px;
+}
+
+tr>td:nth-child(1) {
+  text-align: left;
+  padding-right: 120px;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+tr>td:nth-child(2) {
+   text-align: center;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+}
+
+tr>td:nth-child(3) {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+   padding-bottom: 8px;
+}
