@@ -379,3 +379,12 @@ h3.menu-item-title {
 }
 
 
+.modal .modal-header {
+  background: #706c61 ;
+  color: #ddd; }
+  .modal .modal-header .close {
+    color: #ddd; }
+
+.modal .modal-body {
+  background: #000000; }
+
